@@ -57,5 +57,5 @@ curl -XPOST 'localhost:9200/test/type1/1/_update' -d '{
 
 在 ${ES_HOME}/config/elasticsearch.yml中增加如下配置：
 
-   script.inline: on 
-   script.indexed: on
+    script.inline: on 
+    script.indexed: on
